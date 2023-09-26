@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          display: none;
+        }
+      </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inputs" >
+            <p>Enter a value in grams</p>
+            <input id="data" type="number">
+            <div class="valid" id="valid">
+
+                <P>Please provide a valid gram</P>
+            </div>
+                
+            <div class="form">
+                <label for="cars">Convert to:</label>
+                <select id="cars" name="cars">
+                  <option  value="Kilograms">Kilograms</option>
+                  <option value="Pounds">Pounds</option>
+                  <option value="Ounces">Ounces</option>
+                  <option value="Stones">Stones</option>
+                </select>
+            </div>
+            <button onclick="result()">Convert</button>
+            <button onclick="deletes()" style="margin-left: 10px; background-color: hsl(240, 0%, 25%); ">Reset</button>
+                  
+         </div>
+<div class="output" id="outputs">
+    <!-- <p>155kg</p> -->
+</div>
+
+
+
+    </div>
+    
+
+
+
+
+ <script src="main.js"></script>   
+</body>
+</html>

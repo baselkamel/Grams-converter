@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(240, 0%, 25%);
+    ;
+   
+
+    color: #fff;
+
+    background-color:;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+background-color:hsl(240, 0%, 10%) ;
+    /* margin-top: 20px; */
+width: 350px;
+position: absolute;
+top: 10%;
+left: 40%;
+margin: -25px 0 0 -25px;
+padding: 20px;
+text-align: center;
+}
+.inputs p{
+    color: #fff;
+    font-size: 26px;
+    
+}
+.inputs input{
+    background-color: hsl(240, 0%, 10%);
+        outline: 0;
+        border-width: 0 0 2px;
+        border-color: #fff;
+        color: #fff;
+margin-top: 10px;
+font-size: 20px;
+      }
+    .form{
+        margin-top: 15px;
+    }  
+    .form label{
+        font-size: 20px;
+    }
+    button{
+        background-color: #dc143c;
+        width: 122px;
+        height: 40px;
+        float: left;
+        color: #fff;
+        margin-top: 10px;
+        transition: .4s ease;
+    }
+    button:hover{
+        background-color: rgb(206, 26, 26);
+      
+        transform: scale(1.04);
+    }
+
+    .output{
+        margin-top: 80px;
+        font-size: 18px;
+    }
+
+    .valid p{
+        font-size: 16px;
+        margin-top: 5px;
+        color: red;
+    }
+
+    .valid {
+
+        visibility: hidden;
+    }
+    @media(max-width: 1000px) {
+        .container{
+            background-color:hsl(240, 0%, 10%) ;
+                /* margin-top: 20px; */
+            width: 350px;
+            position: absolute;
+            top: 10%;
+            left: 11%;
+            margin: -25px 0 0 -25px;
+            padding: 20px;
+            text-align: center;
+    }
+}
